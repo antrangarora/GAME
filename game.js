@@ -43,7 +43,7 @@ function checkAnswer(currentLevel) {
       }, 200)
       $("#level-title").text("Game Over, Press Any Key to Restart");
 
-      var audio = new Audio("sounds/wrong.mp3");
+      var audio = new Audio("wrong.mp3");
       audio.play();
 
       startOver();
@@ -66,7 +66,7 @@ playSound(randomChosenColor);
 }
 
 function playSound(name){
-  var audio = new Audio("sounds/"+name+".mp3");
+  var audio = new Audio(name+".mp3");
   audio.play();
 }
 
