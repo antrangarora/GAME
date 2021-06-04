@@ -4,7 +4,7 @@ var buttonColors=["red","blue","green","yellow"];
 var level=0;
 var started=false;
 
-$(document).keypress(function() {
+$(document).click(function() {
   if (!started) {
 
 
